@@ -1,0 +1,35 @@
+/*Основные стили страницы*/
+body{
+	background:url('img/pole.jpg') no-repeat;
+	background-size: 100%;
+} 
+/*Стили мяча*/
+.ball{
+	margin-top: 26%;
+	margin-left: 47.5%;
+	width: 60px;
+	height: 60px;
+	background:url('img/ball.png');
+	background-size: 100%;
+}
+
+/*Стили колонок для записи голов*/
+.right{
+	position: absolute;
+	top:0;
+	left:90%;
+}
+.left{
+	position: absolute;
+	top:0;
+}
+
+/*Стили текста записи голов*/
+.left_goal{
+   font-size: 34px;
+   font-weight: bold;
+}
+.right_goal{
+	font-size: 34px;
+	font-weight: bold;
+}
